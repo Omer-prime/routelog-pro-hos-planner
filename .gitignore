@@ -27,8 +27,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Environment files (root-level)
-.env
-.env.local
 .env.*.local
 
 # OS
@@ -36,10 +34,11 @@ yarn-error.log*
 Thumbs.db
 
 # Editors
-.vscode/
 .idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+config.bat
+node_modules
